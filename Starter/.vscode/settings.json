@@ -1,0 +1,12 @@
+{
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers": [
+        "${CodeCop}",
+        "${UICop}",
+        "${PerTenantExtensionCop}",
+        "${analyzerFolder}BusinessCentral.LinterCop.dll"
+    ],
+    "al.backgroundCodeAnalysis": "Project",
+    "al.ruleSetPath": "./.vscode/GST.ruleset.json",
+    "CRS.ObjectNameSuffix": " STA_GST",
+}

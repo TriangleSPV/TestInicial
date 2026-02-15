@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "BCDEV",
+            "server": "http://sdockerx",
+            "serverInstance": "BC",
+            "authentication": "UserPassword",
+            "tenant": "default",
+            "port": 7149,
+            "breakOnError": true,
+            "schemaUpdateMode": "Synchronize"
+        }
+    ]
+}

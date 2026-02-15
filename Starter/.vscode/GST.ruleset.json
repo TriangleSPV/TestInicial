@@ -1,0 +1,150 @@
+{
+    "name": "Triangle ruleset",
+    "rules": [
+        {
+            "id": "AA0072",
+            "action": "None",
+            "justification": "Los nombres de las variables pueden ser recortados."
+        },
+        {
+            "id": "AA0073",
+            "action": "None",
+            "justification": "Los nombres de las variables temporales se crean con el prefijo rct. Redisenyar en futuras tareas."
+        },     
+        {
+            "id": "AA0074",
+            "action": "None",
+            "justification": "Los nombres de las constantes de texto se han creado con otra estructura. Redisenyar en futuras tareas."
+        },        
+        {
+            "id": "AA0215",
+            "action": "None",
+            "justification": "Los nombres de ficheros se han creado con otra estructura. Redisenyar en futuras tareas."
+        },
+        {                    
+            "id": "AA0218",
+            "action": "Hidden",
+            "justification": "Aunque la idea sea siempre poner tooltips, hay campos que no lo ponemos."
+        },
+        {                    
+            "id": "AA0240",
+            "action": "Hidden",
+            "justification": "Podemos poner direcciones y teléfonos en textos fijos."
+        },
+        {
+            "id": "AA0242",
+            "action": "Error",
+            "justification": "Campos que falten en setloadfields lo marcamos como error."
+        },
+        {
+            "id": "AA0470",
+            "action": "None",
+            "justification": "No ponemos comentarios en los textos. Redisenyar en futuras tareas."
+        },
+        {
+            "id": "AW0003",
+            "action": "Hidden",
+            "justification": "En las páginas webservice podemos subpaginas."
+        },        
+        {
+            "id": "AW0005",
+            "action": "Error",
+            "justification": "Las acciones siempre deben tener imagen."
+        },
+        {
+            "id": "AW0006",
+            "action": "None",
+            "justification": "Algunos objetos como reports de documents no tienen que estar en el buscador."
+        },
+        {
+            "id": "AW0008",
+            "action": "Hidden",
+            "justification": "En las páginas webservice tipo XMLPort se tiene que utilizar el repeater."
+        },
+        {
+            "id": "LC0002",
+            "action": "Hidden",
+            "justification": "No gestionamos el Warning de Commit de LinterCop."
+        }, 
+        {
+            "id": "LC0005",
+            "action": "Hidden",
+            "justification": "No gestionamos el Warning de coincidencia de mayúsculas/minúsculas de LinterCop."
+        },        
+        {
+            "id": "LC0010",
+            "action": "Hidden",
+            "justification": "No gestionamos el Warning de Complejidad de LinterCop."
+        },
+        {
+            "id": "LC0013",
+            "action": "Info",
+            "justification": "Algunas tablas como las de configuraciones deben tener la clave primaria en blanco."
+        },
+                {
+            "id": "LC0023",
+            "action": "None",
+            "justification": "Hay tablas que no tienen que tener obligatoriamente los Fieldgroups."
+        },
+        {
+            "id": "LC0024",
+            "action": "Warning",
+            "justification": "Punto y coma del final de funciones lo tratamos como Warning."
+        },
+        {
+            "id": "LC0035",
+            "action": "None",
+            "justification": "Por ahora no importa la propiedad AllowInCustomizations."
+        },
+        {
+            "id": "LC0038",
+            "action": "None",
+            "justification": "No hay problema en poner tooltips de más de 200 caracteres."
+        },
+        {
+            "id": "LC0045",
+            "action": "None",
+            "justification": "Los Enums no tienen porque tener el primer valor en blanco."
+        },
+        {
+            "id": "LC0047",
+            "action": "None",
+            "justification": "No gestionamos el Warning de Locked Label de LinterCop."
+        },
+        {
+            "id": "LC0048",
+            "action": "None",
+            "justification": "De momento no creamos errores como ErrorInfo."
+        },
+        {
+            "id": "LC0063",
+            "action": "None",
+            "justification": "No modifiquemos los nombres de los campos APIs porque puede afectar a los terceros."
+        },
+        {
+            "id": "LC0068",
+            "action": "None",
+            "justification": "Demasiadas configuraciones si tenemos que dar todos los permisos de lectura."
+        },
+        {
+            "id": "LC0069",
+            "action": "None",
+            "justification": "A menudo se utiliza la sentencia 'if XXX then;' y si se quita puede dar problemas."
+        },
+        {
+            "id": "LC0084",
+            "action": "Hidden",
+            "justification": "A menudo se utiliza la sentencia FindFirst sin el if."
+        },
+        {
+            "id": "LC0088",
+            "action": "Hidden",
+            "justification": "En migraciones traspasamos valores Option."
+        },
+        {
+            "id": "LC0090",
+            "action": "Hidden",
+            "justification": "No gestionamos los Warning de Complejidad de LinterCop."
+        }
+    ]
+}

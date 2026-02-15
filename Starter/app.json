@@ -1,0 +1,24 @@
+{
+  "id": "39271e74-9349-46f0-8392-85f33e7c9b2f",
+  "name": "App1",
+  "publisher": "Grup de Serveis Triangle",
+  "version": "26.0.0.0",
+  "contextSensitiveHelpUrl": "http://help.triangle.es/es/collections/3410461-manual-de-l-usuari-inox",
+  "application": "26.0.0.0",
+  "platform": "26.0.0.0",
+  "features": ["TranslationFile", "NoImplicitWith", "NoPromotedActionProperties"],
+  "dependencies": [],
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50999
+    }
+  ],  
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "15.2",
+  "target": "Cloud"
+}
